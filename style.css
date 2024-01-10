@@ -1,0 +1,198 @@
+/* .head{
+    margin-top: 5px;
+}
+
+nav a
+{
+   
+   margin-left: 800px;
+    text-decoration: none;
+    padding-right:40px ;
+    color: blue;
+    
+} */
+nav{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 750px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-left: 3rem;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.nav-links li a{
+    color: blue;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    list-style-type: none;
+}
+.color
+{
+    background-color: rgb(21, 21, 22);
+}
+.image
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 600px;
+   margin-top: -250px;
+}
+.name
+{
+    color: white;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.icons
+{
+    margin-left:400px ;
+    color: white;
+    font-size: 30px;
+   word-spacing: 80px;
+   cursor: pointer;
+   display: block;
+}
+.icons:hover
+{
+    color: blue;
+}
+button
+{
+    background-color: rgb(27, 27, 241);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: rgb(8, 74, 113);
+}
+.eight
+{
+    font-size: 45px;
+    color: whitesmoke;
+    text-align: center;
+}
+.nine img
+{
+    width: 350px;
+    height: 250px;
+    margin-left: 70px;
+    position: relative;
+}
+.ten
+{
+    font-size: 30px;
+    color: rgb(21, 43, 168);
+    margin-left: 500px;
+
+}
+.twenty{
+    color: blue;
+}
+.eleven
+{
+    position: relative;
+    color: white;
+    font-size:20px; 
+    margin-left: 20px;
+}
+ 
+.one
+{
+  margin-left:500px;
+    color: white;
+    font-size: 30px;
+}
+ p{
+    text-decoration: none;
+}
+
+.two
+{
+    margin-left:500px;
+}
+  .two a
+{
+    text-decoration: none;
+    
+}
+.three
+{
+    margin-left: 500px;
+    color: white;
+}
+.git{
+    
+    color: white;
+    margin-left:30px;
+}
+.move{
+    margin-left: 150px;
+}
+.Shopping{
+    color: blue;
+   
+}
+.image-container{
+    display: flex;
+    color: white;
+    gap: 30px;
+}
+.commerce{
+    width: 500px;
+    height: 400px;
+    
+}
+.moves{
+    margin-left: 10px;
+    color: white;
+}
+.para{
+    margin-top: 120px;
+
+}
+@media only screen and (max-width:600px) {
+    .three, .git,.moves, .para{
+        /* font-size: 18px; */
+        text-align: center;
+        }
+        .commerce{
+            width: 90%;
+            height: auto;
+            }
+            .move{
+                margin-left: 40px;
+            }
+            .image-container{
+                flex-direction: column;
+                align-items: center;
+                }
+                .navigation{
+                    margin-left: 20px;
+                    gap: 20px;
+                }
+                .ten{
+                    margin-left: 150px;
+                }
+                }
